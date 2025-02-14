@@ -1,0 +1,11 @@
+Model Information:
+* title:	COIN
+* source:	https://sketchfab.com/3d-models/coin-9e14c2b016e245a98259530ba5bb797a
+* author:	Fred Drabble (https://sketchfab.com/FredDrabble)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "COIN" (https://sketchfab.com/3d-models/coin-9e14c2b016e245a98259530ba5bb797a) by Fred Drabble (https://sketchfab.com/FredDrabble) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
