@@ -1,0 +1,152 @@
+*{
+  transition: 0.2s;
+}
+
+a{
+  text-decoration: none;
+}
+
+.container{
+  display: flex;
+}
+
+nav a{
+  flex: 1;
+  text-align: center;
+  color: rgb(255,255,255);
+}
+
+nav a:hover{
+  color: goldenrod;
+  box-shadow: 4px 4px purple;
+  text-decoration-line: underline;
+  background-color: #232b2e;
+  flex: 1.2;
+}
+
+nav img:hover{
+  rotate: 360deg;
+  transition: 2s;
+  box-shadow: none;
+}
+
+img:hover{
+  filter: drop-shadow(10px 10px 20px rgba(0,0,0,0.2));
+}
+#background{
+  background: url(GreatWall.jpg);
+  background-color: #cccccc;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  padding: 100px;
+}
+
+#background-color{
+  background-color: rgb(0,0,0);
+}
+
+.title-text{
+  text-shadow: 2px 2px rgba(0,0,0,0.4);
+}
+
+ #image{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin: 5px;
+   padding: 50px;
+   flex: 2;
+}
+
+#main{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin: 5px;
+   padding: 50px;
+   flex: 3;
+}
+
+body{
+  background-image: url(f3e7db.png);
+}
+
+#cuisine{
+  justify-content: space-around; 
+  background-color: #99cc99;
+}
+
+#link{
+  color: black;
+  margin: 20px;
+  height: 50px;
+  width: 200px;
+  text-align: center;
+  border: 2px solid; 
+  border-radius: 40px;
+  background-color: white;
+  font-style: oblique;
+}
+
+#link:hover{
+  background-color: lightblue;
+  box-shadow: 2px 2px rgba(0,0,0,0.4);
+}
+
+hr{
+  border-top: 1px dashed #f3e7db;
+}
+
+#landmark{
+  justify-content: space-around; 
+  background-color: #a099cc;
+}
+
+#culture{
+  justify-content: space-around;
+  background-color: #cc999c;
+}
+
+#background-cuisine{
+  background: url(chinese-food.jpg);
+  background-color: #cccccc;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  padding: 100px;
+}
+
+.cuisine-text{
+  text-shadow: 2px 2px rgba(0,0,0);
+}
+
+#between{
+  justify-content: space-around;
+}
+
+#background-landmarks{
+  background: url(landmark.jpg);
+  background-color: #cccccc;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  padding: 100px;
+}
+
+#background-culture{
+  background: url(culture.jpg);
+  background-color: #cccccc;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  padding: 100px;
+}
