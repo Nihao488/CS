@@ -1,0 +1,40 @@
+<html>
+  <head>
+    <script src="https://aframe.io/releases/1.3.0/aframe.min.js"></script>
+    <script src="snowman.js"></script>
+    <script src="snowflake.js"></script>
+    <script src="tree.js"></script>
+    <script src="gift.js"></script>
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <a-scene>
+      <!-- http://localhost:8100 -->
+      <a-assets>
+        <!-- Challenge
+             Upload a picture to use as the texture of the gift box. Add the 
+             image to the asset manager and provide an id
+        -->
+        <img src="gift.jpeg" id="gift"></img>
+      </a-assets>
+      <a-plane position="0 0 0" rotation="-90 0 0" width="150" height="150" color="#AAFFAA"></a-plane>
+      <a-box opacity="0" id="snowman" width="2" height="7" depth="2">
+          <a-sphere position="0 0.5 0" radius="1.25" color="white"></a-sphere>
+          <a-sphere position="0 2.25 0" radius="1.05" color="white"></a-sphere>
+          <a-sphere position="0 3.5 0.25" radius=".85" color="white"></a-sphere>
+          <!-- Snowman Eyes -->
+          <a-sphere position="-0.25 3.5 1.1" radius=".15" color="black"></a-sphere>
+          <a-sphere position="0.25 3.5 1.1" radius=".15" color="black"></a-sphere>
+          <!-- Snowman Nose -->
+          <a-cone position="0 3.25 1.3"  rotation="90 0 0" color="tomato" height="0.5" radius-bottom=".1" radius-top="0.01"></a-cone>
+          <!-- Snowman Arms -->
+          <a-cylinder position="-1.25 2.75 0.5" color="#A52A2A" rotation="0 0 60" height="2" radius="0.15"></a-cylinder>
+          <a-cylinder position="1.25 2.75 0.5" color="#A52A2A" rotation="0 0 -60" height="2" radius="0.15"></a-cylinder>
+      </a-box>
+      <!-- Starry night sky -->
+      <a-sky color="blue"></a-sky>
+      <a-camera position="0 1.3 0"> 
+        <a-cursor>
+        </a-cursor>
+      </a-camera>
+</html>
